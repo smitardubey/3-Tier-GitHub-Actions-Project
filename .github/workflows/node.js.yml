@@ -19,7 +19,7 @@ jobs:
         
     - name: Frontend Compilation (Syntax Check)
       run: |
-        cd client
+        cd client &&
         find . -name "*.js" -exec node --check {} +
 
     - name: Backend Compilation (Syntax Check)
