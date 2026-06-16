@@ -16,8 +16,6 @@ jobs:
     steps:
     - name: Checkout code
       uses: actions/checkout@v4
-      with:
-        node-version:  '23'
         
     - name: Frontend Compilation (Syntax Check)
       run: |
